@@ -7,6 +7,8 @@ Open MoA is a potent tool for identifying the underlying drug mechanism of actio
 
 With the transcriptomic data, by inputting the known starting point and endpoints, Open MoA is able to give out the significant confidence score for each interaction in the context-specific subnetworks, thus leading to the identification of the most possible pathway of drug action and key candidates. 
 
+[Fig.1.tiff](:/e7790054edbf491e9631c811fbff9a70)
+
 
 ## 2. Input and output data
 
