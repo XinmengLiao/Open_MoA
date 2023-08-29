@@ -15,7 +15,7 @@
 "Rozrolimupab","Drug","RHD","Gene","Drug_Gene",1,0
 "Human Rho(D) immune globulin","Drug","RHD","Gene","Drug_Gene",1,0
 "Fludiazepam","Drug","GABRR3","Gene","Drug_Gene",1,0
-"Galantamine","Drug","","Gene","Drug_Gene",1,0
+"Galantamine","Drug",NA,"Gene","Drug_Gene",1,0
 "Nusinersen","Drug","SMN2","Gene","Drug_Gene",1,0
 "Nabiximols","Drug","AANAT","Gene","Drug_Gene",1,0
 "Medical Cannabis","Drug","AANAT","Gene","Drug_Gene",1,0
@@ -1969,14 +1969,14 @@
 "Zinc acetate","Drug","JCHAIN","Gene","Drug_Gene",1,0
 "Zinc","Drug","JCHAIN","Gene","Drug_Gene",1,0
 "Zinc chloride","Drug","JCHAIN","Gene","Drug_Gene",1,0
-"Dodecyldimethylamine N-oxide","Drug","","Gene","Drug_Gene",1,0
+"Dodecyldimethylamine N-oxide","Drug",NA,"Gene","Drug_Gene",1,0
 "Zinc acetate","Drug","IGKV1-17","Gene","Drug_Gene",1,0
 "Zinc","Drug","IGKV1-17","Gene","Drug_Gene",1,0
 "4-(4-STYRYL-PHENYLCARBAMOYL)-BUTYRIC ACID","Drug","IGKV2D-28","Gene","Drug_Gene",1,0
-"Zinc","Drug","","Gene","Drug_Gene",1,0
-"Copper","Drug","","Gene","Drug_Gene",1,0
-"Zinc acetate","Drug","","Gene","Drug_Gene",1,0
-"Pidolic acid","Drug","","Gene","Drug_Gene",1,0
+"Zinc","Drug",NA,"Gene","Drug_Gene",1,0
+"Copper","Drug",NA,"Gene","Drug_Gene",1,0
+"Zinc acetate","Drug",NA,"Gene","Drug_Gene",1,0
+"Pidolic acid","Drug",NA,"Gene","Drug_Gene",1,0
 "Clenoliximab","Drug","CD4","Gene","Drug_Gene",1,0
 "Antithymocyte immunoglobulin (rabbit)","Drug","CD4","Gene","Drug_Gene",1,0
 "Ibalizumab","Drug","CD4","Gene","Drug_Gene",1,0
@@ -2614,8 +2614,8 @@
 "Thymidine 5'-triphosphate","Drug","TK1","Gene","Drug_Gene",1,0
 "Zinc chloride","Drug","HRG","Gene","Drug_Gene",1,0
 "Zinc sulfate, unspecified form","Drug","HRG","Gene","Drug_Gene",1,0
-"4-HYDROXY-5-IODO-3-NITROPHENYLACETYL-EPSILON-AMINOCAPROIC ACID ANION","Drug","","Gene","Drug_Gene",1,0
-"4-HYDROXY-3-NITROPHENYLACETYL-EPSILON-AMINOCAPROIC ACID ANION","Drug","","Gene","Drug_Gene",1,0
+"4-HYDROXY-5-IODO-3-NITROPHENYLACETYL-EPSILON-AMINOCAPROIC ACID ANION","Drug",NA,"Gene","Drug_Gene",1,0
+"4-HYDROXY-3-NITROPHENYLACETYL-EPSILON-AMINOCAPROIC ACID ANION","Drug",NA,"Gene","Drug_Gene",1,0
 "Copper","Drug","A1BG","Gene","Drug_Gene",1,0
 "Zinc","Drug","A1BG","Gene","Drug_Gene",1,0
 "Zinc acetate","Drug","A1BG","Gene","Drug_Gene",1,0
@@ -3075,8 +3075,8 @@
 "Hexafluronium","Drug","BCHE","Gene","Drug_Gene",1,0
 "Migalastat","Drug","GLA","Gene","Drug_Gene",1,0
 "Camostat","Drug","CCK","Gene","Drug_Gene",1,0
-"Etiocholanedione","Drug","","Gene","Drug_Gene",1,0
-"Fluorescein","Drug","","Gene","Drug_Gene",1,0
+"Etiocholanedione","Drug",NA,"Gene","Drug_Gene",1,0
+"Fluorescein","Drug",NA,"Gene","Drug_Gene",1,0
 "Zinc acetate","Drug","GSN","Gene","Drug_Gene",1,0
 "Latrunculin A","Drug","GSN","Gene","Drug_Gene",1,0
 "Zinc","Drug","GSN","Gene","Drug_Gene",1,0
@@ -13955,7 +13955,7 @@
 "Dalfampridine","Drug","KCNC3","Gene","Drug_Gene",1,0
 "Fostamatinib","Drug","CAMK1","Gene","Drug_Gene",1,0
 "Glycine","Drug","BAAT","Gene","Drug_Gene",1,0
-"Besilesomab","Drug","","Gene","Drug_Gene",1,0
+"Besilesomab","Drug",NA,"Gene","Drug_Gene",1,0
 "Artenimol","Drug","HNRNPD","Gene","Drug_Gene",1,0
 "Dimethyl fumarate","Drug","KEAP1","Gene","Drug_Gene",1,0
 "Fostamatinib","Drug","IKBKE","Gene","Drug_Gene",1,0
@@ -14649,13 +14649,13 @@
 "Proline","Drug","P5CR2","Gene","Drug_Gene",1,0
 "Almonertinib","Drug","EGFR","Gene","Drug_Gene",1,0
 "Fostamatinib","Drug","SBK1","Gene","Drug_Gene",1,0
-"Glycine","Drug","","Gene","Drug_Gene",1,0
-"Pyridoxal phosphate","Drug","","Gene","Drug_Gene",1,0
-"Tetrahydrofolic acid","Drug","","Gene","Drug_Gene",1,0
+"Glycine","Drug",NA,"Gene","Drug_Gene",1,0
+"Pyridoxal phosphate","Drug",NA,"Gene","Drug_Gene",1,0
+"Tetrahydrofolic acid","Drug",NA,"Gene","Drug_Gene",1,0
 "Proline","Drug","PYCRL","Gene","Drug_Gene",1,0
 "Fostamatinib","Drug","MAP3K19","Gene","Drug_Gene",1,0
-"4-[(6-phenyl[1,2,4]triazolo[4,3-b]pyridazin-3-yl)methyl]phenol","Drug","","Gene","Drug_Gene",1,0
-"Sobetirome","Drug","","Gene","Drug_Gene",1,0
+"4-[(6-phenyl[1,2,4]triazolo[4,3-b]pyridazin-3-yl)methyl]phenol","Drug",NA,"Gene","Drug_Gene",1,0
+"Sobetirome","Drug",NA,"Gene","Drug_Gene",1,0
 "Fostamatinib","Drug","TNNI3K","Gene","Drug_Gene",1,0
 "Glutamic acid","Drug","EARS2","Gene","Drug_Gene",1,0
 "Alanine","Drug","AARS2","Gene","Drug_Gene",1,0
@@ -14705,7 +14705,7 @@
 "3,5-Diiodotyrosine","Drug","IYD","Gene","Drug_Gene",1,0
 "Aspartic acid","Drug","DARS2","Gene","Drug_Gene",1,0
 "Matairesinol","Drug","DHRS4L2","Gene","Drug_Gene",1,0
-"(1S)-1-Phenylethyl (4-acetamidobenzyl)phosphonate","Drug","","Gene","Drug_Gene",1,0
+"(1S)-1-Phenylethyl (4-acetamidobenzyl)phosphonate","Drug",NA,"Gene","Drug_Gene",1,0
 "Onapristone","Drug","ADGRD1","Gene","Drug_Gene",1,0
 "Citrulline","Drug","PADI6","Gene","Drug_Gene",1,0
 "PARA-NITROPHENYL 1-THIO-BETA-D-GLUCOPYRANOSIDE","Drug","LCTL","Gene","Drug_Gene",1,0
@@ -14774,7 +14774,7 @@
 "Guanosine-5'-Diphosphate","Drug","EFTUD1","Gene","Drug_Gene",1,0
 "Deoxycholic acid","Drug","EFTUD1","Gene","Drug_Gene",1,0
 "S-(Methylmercury)-L-Cysteine","Drug","EFTUD1","Gene","Drug_Gene",1,0
-"(1S,2S,5S)2-(4-GLUTARIDYLBENZYL)-5-PHENYL-1-CYCLOHEXANOL","Drug","","Gene","Drug_Gene",1,0
+"(1S,2S,5S)2-(4-GLUTARIDYLBENZYL)-5-PHENYL-1-CYCLOHEXANOL","Drug",NA,"Gene","Drug_Gene",1,0
 "Mant-Adp","Drug","MYH14","Gene","Drug_Gene",1,0
 "(3aS)-3a-hydroxy-5-methyl-1-phenyl-1,2,3,3a-tetrahydro-4H-pyrrolo[2,3-b]quinolin-4-one","Drug","MYH14","Gene","Drug_Gene",1,0
 "(3aS)-3a-hydroxy-7-methyl-1-phenyl-1,2,3,3a-tetrahydro-4H-pyrrolo[2,3-b]quinolin-4-one","Drug","MYH14","Gene","Drug_Gene",1,0
@@ -16103,8 +16103,8 @@
 "Vitamin E","Drug","SEC14L3","Gene","Drug_Gene",1,0
 "alpha-Tocopherol succinate","Drug","SEC14L3","Gene","Drug_Gene",1,0
 "D-alpha-Tocopherol acetate","Drug","SEC14L3","Gene","Drug_Gene",1,0
-"Mirtazapine","Drug","","Gene","Drug_Gene",1,0
-"AS-8112","Drug","","Gene","Drug_Gene",1,0
+"Mirtazapine","Drug",NA,"Gene","Drug_Gene",1,0
+"AS-8112","Drug",NA,"Gene","Drug_Gene",1,0
 "Fostamatinib","Drug","STK17A","Gene","Drug_Gene",1,0
 "Titanium dioxide","Drug","MARCO","Gene","Drug_Gene",1,0
 "Silicon dioxide","Drug","MARCO","Gene","Drug_Gene",1,0
