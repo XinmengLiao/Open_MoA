@@ -1,10 +1,12 @@
 # Open MoA
 
+
 ## 1. Introduction
 
 Open MoA is a potent tool for identifying the underlying drug mechanism of actions (MoAs), core biological pathways, and key targets.
 
 With the transcriptomic data, by inputing the known starting point and endpoints, Open MoA is able to give out the significant confidence score for each interaction in the context-specific subnetworks, thus leading to the identification of the most possible pathway of drug action and key candidates. 
+
 
 ## 2. Input and output data
 
@@ -23,6 +25,7 @@ With the transcriptomic data, by inputing the known starting point and endpoints
 2. The predicted core pathway (the shortest path) from the provided starting point to the endpoint.
 
 3. Significant targets and interactions of the expected biological context.
+
 
 ## 3. Datasets
 
@@ -50,6 +53,7 @@ The gene transcriptomic data of HepG2 cell line from the Human Protein Atlas and
 
 The reference integrated network is screened with genes expressed in HepG2 cell line to generate a HepG2 cell specific subnetwork. It can be found in `Networks/HepG2_specific.csv`
 
+
 ## 4. The algorithms of Open MoA
 
 (1) Construction of the reference IN and the HepG2-specific IN
@@ -69,6 +73,7 @@ The  Detailed process is showed in `Algorithms/Weights_Calculation.R`
 With the context-specific weighted subnetworks, the potential core pathways could then be predicted by Open MoA. shortest path function from `igaph` package in R are used for discovering the shortest path. The penalty scores of edges are used as weight parameter.
 
 The  Detailed process is showed in `Algorithms/Shortest_Path.R`
+
 
 ## 5. Following analyses for the shortest path and the context-specific centric subnetworks.
 
