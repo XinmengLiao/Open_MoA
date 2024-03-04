@@ -51,7 +51,7 @@ The gene transcriptomic data of the HepG2 cell line from the Human Protein Atlas
 
 (6) The HepG2 cell-specific subnetwork
 
-The reference integrated network is screened with genes expressed in the HepG2 cell line to generate a HepG2 cell-specific subnetwork. It can be found in `Networks/HepG2_specific.csv`
+The reference integrated network is screened with genes expressed in the HepG2 cell line to generate a HepG2 cell-specific subnetwork. It can be found in `Datasets/HepG2_specific.csv`
 
 
 ## 4. The algorithms of Open MoA
