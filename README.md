@@ -12,7 +12,7 @@ With the transcriptomic data, by inputting the known starting point and endpoint
 
 (1) Input data:
 
-1. Context-specific transcriptomic data
+1. Context-specific transcriptomic data.
 
 2. The starting point of the expected biological reaction.
 
@@ -27,7 +27,14 @@ With the transcriptomic data, by inputting the known starting point and endpoint
 3. Significant targets and interactions of the expected biological context.
 
 
-## 3. Datasets
+## 3. Tutorial and R functions 
+
+* R functions of Open MoA are shown in `Algorithms/OpenMoA Funcitons.R`.
+
+* Detailed tutorial of constructing JNK-IN-5A specific subnetwork and predicted the drug MoA are shown in `Algorithms/Tutorial.R`.
+
+
+## 4. Datasets
 
 (1) DrugBank
 
@@ -54,28 +61,28 @@ The gene transcriptomic data of the HepG2 cell line from the Human Protein Atlas
 The reference integrated network is screened with genes expressed in the HepG2 cell line to generate a HepG2 cell-specific subnetwork. It can be found in `Datasets/HepG2_specific.csv`
 
 
-## 4. The algorithms of Open MoA
+## 5. The algorithms of Open MoA
 
 (1) Construction of the reference IN and the HepG2-specific IN
 
-The reference IN is the simple combination of three interaction datasets by `reference_IN <- rbind(DrugBank, STRING, RegNetwork)` in R. The reference IN is screened under Only the HepG2 expressed genes are kept for establishing the HepG2-specific IN. Based on the aim of study, the transcriptomic data of other cell lines could be used for cell line-specific IN.
+The reference IN is the simple combination of three interaction datasets by `reference_IN <- rbind(DrugBank, STRING, RegNetwork)` in R. Only the HepG2 expressed genes are kept for establishing the HepG2-specific IN. Based on the aims of different studies, the transcriptomic data of other cell lines could be used for cell line-specific IN.
 
 (2) Construction of the context-specific weighted subnetworks
 
 The transcriptomic data of the context target will be used in this step. The starting point should be the target, while the endpoints should be the perturbed genes of the target. The FDR values of the perturbation will be the weight for calculation. For instance, as we constructed a TGFβ1-specific weighted subnetwork in our study, the transcriptomic data of TGFβ1 were first downloaded from the Connectivity Map and the FDR values of each perturbed genes were calculated. Subsequently, the TGFβ1 was set as the starting point, while all the perturbed genes were set as the endpoints. The FDR values were used for weight calculation. Eventually, each edge in the context-specific weighted subnetwork will have a computed penalty score.
 
-The test data of TGFβ1 transcriptomic data are located in `Test/TGFB1.csv`
+The test data of TGFβ1 and JNK-IN-5A transcriptomic data are located in `Test/TGFB1.csv` and `Test/JNK-IN-5A.csv`, respectively. 
 
-The  Detailed process is shown in `Algorithms/Weights_Calculation.R`
+The code details are shown in the `Weighted Network Construction` section in `Algorithms/OpenMoA Funcitons.R`
 
 (3) Identification of the potential core pathway (the shortest path)
 
 With the context-specific weighted subnetworks, the potential core pathways could then be predicted by Open MoA. The shortest path function from `igaph` package in R is used for discovering the shortest path. The penalty scores of edges are used as the weight parameter.
 
-The  Detailed process is shown in `Algorithms/Shortest_Path.R`
+The code details are shown in the `Potential pathway prediction` section in `Algorithms/OpenMoA Funcitons.R`
 
 
-## 5. Following analyses for the shortest path and the context-specific centric subnetworks.
+## 6. Downstream analyses for the shortest path and the context-specific centric subnetworks.
 
 The following analyses were conducted by these tools and packages:
 
