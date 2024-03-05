@@ -31,7 +31,7 @@ jnk_scorenetwork <- unique(jnk_scorenetwork)
 which(jnk_scorenetwork$Penalty_Score != 1) 
 
 ## Read JNK-IN-5A.csv file as jnk_fdr
-jnk_fdr<- read.table('JNK-IN-5A.csv',sep = ",",header = T)
+jnk_fdr<- read.csv('JNK-IN-5A.csv',header = T)
 jnk_fdr <- jnk_fdr[which(jnk_fdr$FDR<1),]
 jnk_fdr <- jnk_fdr[which(jnk_fdr$FDR != "NA"),]
 jnk_fdr <- unique(jnk_fdr)
