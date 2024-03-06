@@ -96,5 +96,7 @@ The following analyses were conducted by these tools and packages:
 
 
 ## Cite us
-If you have used Open MoA in your work, please cite: 
+If you have used Open MoA in your work, please cite:
+
 Liao X, Ozcan M, Shi M, Kim W, Jin H, Li X, Turkez H, Achour A, Uhlén M, Mardinoglu A, Zhang C. Open MoA: revealing the mechanism of action (MoA) based on network topology and hierarchy. Bioinformatics. 2023 Nov 1;39(11):btad666. doi: 10.1093/bioinformatics/btad666. PMID: 37930015; PMCID: PMC10637856.
+
