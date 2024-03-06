@@ -69,7 +69,7 @@ The reference IN is the simple combination of three interaction datasets by `ref
 
 (2) Construction of the context-specific weighted subnetworks
 
-The transcriptomic data of the context target will be used in this step. The starting point should be the target, while the endpoints should be the perturbed genes of the target. The FDR values of the perturbation will be the weight for calculation. For instance, as we constructed a TGFβ1-specific weighted subnetwork in our study, the transcriptomic data of TGFβ1 were first downloaded from the Connectivity Map and the FDR values of each perturbed genes were calculated. Subsequently, the TGFβ1 was set as the starting point, while all the perturbed genes were set as the endpoints. The FDR values were used for weight calculation. Eventually, each edge in the context-specific weighted subnetwork will have a computed penalty score.
+The transcriptomic data of the context target will be used in this step. The starting point should be the target, while the endpoints should be the perturbed genes of the target. The FDR values of the perturbation will be the weight for calculation. For instance, as we constructed a TGFβ1-specific weighted subnetwork in our study, the transcriptomic data of TGFβ1 were first downloaded from the Connectivity Map, and the FDR values of each perturbed genes were calculated. Subsequently, the TGFβ1 was set as the starting point, while all the perturbed genes were set as the endpoints. The FDR values were used for weight calculation. Eventually, each edge in the context-specific weighted subnetwork will have a computed penalty score.
 
 The test data of TGFβ1 and JNK-IN-5A transcriptomic data are located in `Test/TGFB1.csv` and `Test/JNK-IN-5A.csv`, respectively. 
 
@@ -93,3 +93,8 @@ The following analyses were conducted by these tools and packages:
 (3) Pathway reconstruction: `rWikipathways package v1.14.0` in R.
 
 (4) Centric subnetwork visualisation: Cytoscape v3.9.1.
+
+
+## Cite us
+If you have used Open MoA in your work, please cite: 
+Liao X, Ozcan M, Shi M, Kim W, Jin H, Li X, Turkez H, Achour A, Uhlén M, Mardinoglu A, Zhang C. Open MoA: revealing the mechanism of action (MoA) based on network topology and hierarchy. Bioinformatics. 2023 Nov 1;39(11):btad666. doi: 10.1093/bioinformatics/btad666. PMID: 37930015; PMCID: PMC10637856.
